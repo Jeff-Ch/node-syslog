@@ -1,11 +1,15 @@
 {
-  "name"          : "syslog",
-  "description"   : "Syslog-ng TCP client, with basic fault-tolerance.",
-  "url"           : "http://github.com/cloudhead/node-syslog",
+  "name"          : "syslog3",
+  "description"   : "Updated syslog authored by szinck and created by cloudhead",
+  "url"           : "http://github.com/jeff-ch/node-syslog",
   "keywords"      : ["syslog", "logger"],
   "author"        : "Alexis Sellier <self@cloudhead.net>",
-  "contributors"  : [],
-  "version"       : "0.1.1",
+  "contributors"  : [
+                  "szinck <https://github.com/szinck>",
+                  "jeff-ch <https://github.com/jeff-ch>"
+                  ],
+  "version"       : "0.1.6",
+  "repository"    : "jeff-ch/node-syslog",
   "main"          : "./lib/node-syslog",
   "directories"   : { "lib": "./lib" },
   "engines"       : { "node": ">=0.4.2" }

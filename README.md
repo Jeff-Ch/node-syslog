@@ -1,18 +1,20 @@
 
-node-syslog
+syslog3
 ===========
 
-> Syslog-ng TCP client for node, with basic fault-tolerance.
+> UPDATED Syslog-ng TCP client for node, with basic fault-tolerance.
+> Taken from https://github.com/szinck/node-syslog who has made enhancements from the original npm syslog: https://www.npmjs.com/package/syslog.
+> ADDED GITHUB URL https://github.com/Jeff-Ch/node-syslog
 
 installation
 ------------
 
-    $ npm install syslog
+    $ npm install syslog3
 
 synopsis
 --------
-    
-    var syslog = require('syslog');
+
+    var syslog = require('syslog3');
     var logger = syslog.createClient(514, 'localhost');
 
     logger.info("ping!");
